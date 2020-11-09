@@ -1,0 +1,48 @@
+body {
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    padding: 10px;
+    width: 80vh;
+    height: 80vh;
+    margin: auto;
+}
+
+.box {
+    background-color: orange;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.holder {
+    width: 80%;
+    height: 80%;
+    font-size: 10rem;
+}
+
+#AI {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: grid;
+        width: 40vh;
+        height: 40vh;
+    }
+    .holder {
+        font-size: 30px;
+    }
+}
