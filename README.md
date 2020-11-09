@@ -18,4 +18,4 @@ Minimax is a decision rule used in artificial intelligence, decision theory, gam
 **Algorithm**
 
 
-![](read_me/2.jpg)
+![](read_me/2.JPG)
